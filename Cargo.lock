@@ -15,6 +15,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "p3"
+version = "0.1.0"
+dependencies = [
+ "util",
+]
+
+[[package]]
 name = "phf"
 version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -95,6 +102,7 @@ version = "0.1.0"
 dependencies = [
  "p1",
  "p2",
+ "p3",
 ]
 
 [[package]]
