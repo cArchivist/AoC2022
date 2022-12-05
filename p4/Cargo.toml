@@ -1,5 +1,5 @@
 [package]
-name = "runner"
+name = "p4"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,7 +7,4 @@ edition = "2021"
 
 [dependencies]
 
-p1 = { path = "../p1" }
-p2 = { path = "../p2" }
-p3 = { path = "../p3" }
-p4 = { path = "../p4" }
+util = { path = "../util" }
