@@ -1,7 +1,7 @@
 fn main() {
     // part 1
-    let filename = "./runner/src/p9.txt";
-    let out = p9::solve(filename);
+    let filename = "./runner/src/p10.txt";
+    let out = p10::solve2(filename);
     println!("Part 1 solution: {}\n", out);
 
     // part 2
