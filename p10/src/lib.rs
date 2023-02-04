@@ -22,7 +22,7 @@ impl Command {
 }
 
 pub fn solve(filename: &str) -> isize {
-    let mut key_cycles: Vec<usize> = vec![20, 60, 100, 140, 180, 220];
+    let key_cycles: Vec<usize> = vec![20, 60, 100, 140, 180, 220];
     let mut sum: isize = 0;
     let mut commands: Vec<Command> = Vec::new();
     fs::read_to_string(filename).unwrap_or_else(|error| {
